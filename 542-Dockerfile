@@ -1,0 +1,5 @@
+from nginx:alpine
+
+COPY ./src-542_new_vision/ /usr/share/nginx/html
+
+EXPOSE 80
