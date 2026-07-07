@@ -9,3 +9,5 @@ Ensure you have resources, probes created
 During deployment your application should be accessible
 revert the deployment to version 1
 For creating docker image and pushing using a free tier vm and for k8s use killercoda.
+
+How to open killercoda
