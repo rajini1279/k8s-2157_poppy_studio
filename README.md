@@ -6,18 +6,24 @@ Sample K8s project
 
 ## Commands executed 
 git clone https://github.com/rajini1279/k8s-2157_poppy_studio.git
+
 ls -tlr
+
 git clone https://github.com/rajini1279/k8s-2157_poppy_studio.git
 git pull .
 git pull
+
 docker build
 docker build -t rgundala/exercise:1
 docker build -t rgundala/exercise:1 .
 docker run -d -p 8090:80 rgundala/exercise:1
+
 git pull
 ls -tlr
+
 docker build -t rgundala/exercise:1 -f ./poppy-Dockerfile .
 docker build -t rgundala/exercise:2 -f ./542-Dockerfile .
+
 history
 To use the access token from your Docker CLI client:
 
